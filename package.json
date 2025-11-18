@@ -1,0 +1,20 @@
+{
+  "name": "form-login",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "milad",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server .",
+    "tailwind": "npx @tailwindcss/cli -i ./style.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}
