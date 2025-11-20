@@ -197,20 +197,20 @@
   .justify-center {
     justify-content: center;
   }
-  .rounded-\[var\(--border-radius\)\] {
+  .rounded-\(--border-radius\) {
     border-radius: var(--border-radius);
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-\[var\(--primary-color\)\] {
+  .border-\(--primary-color\) {
     border-color: var(--primary-color);
   }
-  .bg-\[var\(--input-bg\)\] {
+  .bg-\(--input-bg\) {
     background-color: var(--input-bg);
   }
-  .bg-\[var\(--primary-color\)\] {
+  .bg-\(--primary-color\) {
     background-color: var(--primary-color);
   }
   .p-8 {
@@ -237,10 +237,10 @@
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
   }
-  .text-\[var\(--accent-color\)\] {
+  .text-\(--accent-color\) {
     color: var(--accent-color);
   }
-  .text-\[var\(--text-color\)\] {
+  .text-\(--text-color\) {
     color: var(--text-color);
   }
   .text-white {
@@ -259,7 +259,7 @@
     --tw-duration: 300ms;
     transition-duration: 300ms;
   }
-  .hover\:bg-\[var\(--accent-color\)\] {
+  .hover\:bg-\(--accent-color\) {
     &:hover {
       @media (hover: hover) {
         background-color: var(--accent-color);
@@ -279,7 +279,7 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
-  .focus\:ring-\[var\(--accent-color\)\] {
+  .focus\:ring-\(--accent-color\) {
     &:focus {
       --tw-ring-color: var(--accent-color);
     }
